@@ -1,0 +1,16 @@
+{
+    "name": "marvin.carvalho/formferias",
+    "autoload": {
+        "psr-4": {
+            "MarvinCarvalho\\Formferias\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marvin Carvalho"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}

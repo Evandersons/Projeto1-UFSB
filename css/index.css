@@ -1,0 +1,70 @@
+/* Estilos para telas pequenas (até 600px de largura) */
+@media screen and (max-width: 600px) {
+    /* Reduza a margem do cabeçalho para economizar espaço */
+    #titulo {
+        font-family: sans-serif;
+        color: #002878;
+        margin-left: 0%;
+    }
+    
+    /* Alinhe o campo do nome e do SIAPE em uma única coluna */
+    .campo {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Aumente a altura do campo de justificativa para torná-lo mais legível */
+    #textoGrande {
+        height: 150px;
+    }
+
+    /* Aumente o tamanho da fonte para tornar o texto mais legível em telas pequenas */
+    label, input, textarea, button {
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        color: #002878;
+    }
+}
+
+/* Estilos padrão para telas maiores que 600px */
+/* Você pode personalizar esses estilos conforme necessário */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #002878;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background: #323232;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}

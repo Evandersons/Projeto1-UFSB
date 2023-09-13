@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="screen">
+
+
+    <title>Formulário de Solicitação de Férias</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+    <div>
+        <h1 id="titulo">UFSB Formulário Interrupção de Férias</h1>
+        <br>
+    </div><br><br>
+    <!--action="https://api.sheetmonkey.io/form/wD17CnD5F39zbrK2SzSzDw"-->
+    <!--action="gerar_pdf.php"-->
+    <form method="post" action="gerar_pdf.php">
+
+        <fieldset class="grupo">
+            <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="nome"><strong>Servidor(a):</strong></label>
+                <input type="text" name="nome" id="nome" placeholder="Nome completo" required><br>
+            </div>
+            <!-- Campo de siap com-->
+            <div class="campo">
+                <label for="siape"><strong>SIAPE:</strong></label>
+                <input type="siape" name="siape" id="siape" placeholder="Digite seu SIAPE" required><br>
+            <!-- Campo de ano de exercicio com-->
+            <div class="campo">
+                <label for="ano"><strong>Ano de exercicio para interrupção do gozo:</strong></label>
+                <input type="number" name="ano" id="ano" placeholder="Digite o ano" required><br>
+
+            <!-- Campo da data inicial com-->
+            <div class="campo">
+                <label for="apartirData"><strong>A partir do dia:</strong></label>
+                <input type="date" name="apartirData" id="apartirData" placeholder="" required><br>
+            </div>
+         
+            <!-- Campo da data inicial da interrupção -->
+             <div class="campo">
+                <label for="datainicial_1"><strong>Data inicial a ser interrompida:</strong></label>
+                <input type="date" name="datainicial_1" id="datainicial_1" placeholder="" required><br>
+            </div>
+
+             <!-- Campo da data final da interrupção -->
+             <div class="campo">
+                <label for="datafinal_1"><strong>Data final a ser interrompida:</strong></label>
+                <input type="date" name="datafinal_1" id="datafinal_1" placeholder="" required><br>
+            </div>
+
+            <!-- Campo da data inicial a ser remarcada -->
+            <div class="campo">
+                <label for="datainicial_2"><strong>Data inicial a ser remarcada:</strong></label>
+                <input type="date" name="datainicial_2" id="datainicial_2" placeholder="" required><br>
+            </div>
+            
+            <!-- Campo da data final a ser remarcada -->
+            <div class="campo">
+                <label for="datafinal_2"><strong>Data final a ser remarcada:</strong></label>
+                <input type="date" name="datafinal_2" id="datafinal_2" placeholder="" required><br>
+            </div>
+
+            <!-- Campo de Justificativa -->
+            <div class="campo">
+                <label for="just"><strong>Justificativa:</strong></label>
+                <textarea id="textoGrande" name="just" rows="5" cols="40" placeholder="Informe a sua justificativa" required></textarea><br>
+            </div>
+
+            <!-- Campo da data -->
+            <div class="campo">
+                <label for="data"><strong>Data de hoje:</strong></label>
+                <input type="date" name="data" id="data" placeholder="" required><br>
+            </div>
+            
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" value="Enviar Formulário" onsubmit="" name="Enviar">Enviar Formulário</button>
+    </form>
+</body>
+
+</html>

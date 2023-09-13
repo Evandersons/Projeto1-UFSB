@@ -1,0 +1,103 @@
+
+/* Estilo do Cabeçalho */
+img.cabecalho {
+    width: 900px;
+    height: 150px;
+    margin-top: -30;
+}
+
+/* Estilo do Titulo do Formulario - A fonte não está sendo reconhecida */
+p.titulo{
+    text-align: center;
+    font-family: "Bookman Old Style";
+    font-weight: bolder;
+}
+
+   /* Estilo da Tabela */
+   table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+   /* Estilo das tds gerais */
+   td {
+    padding: 8px;
+    text-align: center;
+   }
+
+   /* Estilo da th Identificação - Inserindo o fundo cinza e posição em referência as 2 tds */
+   th[colspan="2"] {
+    vertical-align: middle; 
+    text-align: center;
+    font-family: "Bookman Old Style";
+    background-color: #D3D3D3;
+}
+
+   /* Estilo das th - Posição em referência as 6 tds*/
+   th[colspan="3"] {
+    vertical-align: middle;
+    background-color: #D3D3D3;
+   }
+
+   /* Estilo das th - Inserindo o fundo cinza */
+   th.fundo {
+    text-align: center;
+    background-color: #D3D3D3;
+    font-family: "Bookman Old Style";
+}
+
+   /* Estilo dos conteúdos com Datas - Removendo o negrito */
+   th.datas {
+    font-weight: normal;
+   }
+
+   /* Estilo dos conteúdos Nome e SIAPE - Posição e Removendo o negrito */
+   th.nome-siape {
+    text-align: left;
+    font-weight: normal;
+   }
+
+   /* Estilo da tabela de Justificativa - Posição e Removendo a linha inferior do conteúdo */
+   td.just {
+    border-bottom: none;
+    text-align: left;
+   }
+
+    /* Estilo do Rodapé */
+    p.rodape{
+    text-align: center;
+    font-family: "Bookman Old Style";
+    color: #222F71;
+    font-weight: bolder;
+}
+
+    /* Estilos das h3 de Assinaturas */
+    h3.linha {
+        margin-bottom: 0%;
+    }
+
+    h3.linha2 {
+        text-align: right;
+    }
+
+    h3.assinatura {
+    border-top: none;
+    margin-top: none;
+    font-size: 11pt;   
+    font-style: italic; 
+    }
+
+    /* Estilo do conteúdo Data do Dia */
+    p.data-do-dia {
+        text-align: center;
+        font-style: oblique;
+    }
+    
+    /* Estilo da tabela Observação */
+    th.obs {
+        font-style:oblique;
+        border-collapse: collapse;
+        padding: 12px;
+    }
+
+
